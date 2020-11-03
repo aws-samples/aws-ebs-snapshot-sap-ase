@@ -74,13 +74,13 @@ Add the following line at the end of the file RUN\_\<SERVER>\_q located in the d
 ````
 
 ### Recommendations
-- Recommended frequency: 1 snapshot every 8-12 hours (the frequency will not impact RPO as we are backing up the logs to EFS and doing PIT)
+- Recommended frequency: 1 snapshot every 8-12 hours (the frequency of the snapshots, does not impact the RPO, as log backups are written to EFS storage and used during recovery)
 
 
 ### Execute snapshot script:
 
 ````
-./aws-sap-sybase-snapshot.sh
+./aws-sap-ase-snapshot.sh
 
 ````
 
