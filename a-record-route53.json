@@ -1,0 +1,20 @@
+{
+    "ChangeBatch": {
+        "Comment": "",
+        "Changes": [
+            {
+                "Action": "UPSERT",
+                "ResourceRecordSet": {
+                    "Name": "dbs01.test-example.com",
+                    "Type": "A",
+                    "TTL": 60,
+                    "ResourceRecords": [
+                        {
+                            "Value": "IP_CHANGE"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
