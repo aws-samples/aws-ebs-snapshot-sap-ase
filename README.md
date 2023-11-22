@@ -1,6 +1,8 @@
 ## AWS Snapshots for SAP ASE
 How to use AWS EBS Snapshots for SAP ASE to backup the database and to create an automated recovery procedure. More information see [SAP on AWS blog](https://aws.amazon.com/blogs/awsforsap/how-to-use-snapshots-to-create-an-automated-recovery-procedure-for-sap-ase-databases/).
 
+**Update 11/2023:** Customers can now use [Amazon Data Lifecycle Manager](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/snapshot-ami-policy.html) to execute pre/post scripts to get to application-consistent EBS Snapshots.
+
 ## Backup
 
 ### Prerequisites
